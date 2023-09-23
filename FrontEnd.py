@@ -42,6 +42,3 @@ def process_sequence():
             return render_template('design.html', result=sequence_result)
 
     return redirect(url_for('Dozzd'))
-
-if __name__ == '__main__':
-    app.run(debug=True)
